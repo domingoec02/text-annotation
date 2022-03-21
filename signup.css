@@ -1,0 +1,106 @@
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-size: cover;
+                    background-position: center;
+                    font-family: sans-serif;
+                    background-image: url('Brown\ Minimalist\ Grand\ Opening\ Coffee\ Shop\ Aesthetic\ Banner.png');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                  
+                
+                }
+                
+                .signupbox {
+                    width: 320px;
+                    height: 530px;
+                    background-color: #E1DDDA;
+                    color: #aba8ac;
+                    top: 55%;
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    box-sizing: border-box;
+                    padding: 40px 30px;
+                    border-style: dashed;
+                }
+                
+                .avatar {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -50px;
+                    left: calc(50% - 50px);
+                }
+                
+                h1 {
+                    margin: 0;
+                    padding: 0 0 20px;
+                    text-align: center;
+                    font-size: 22px;
+                }
+                
+                .signupbox p {
+                    margin: 0;
+                    padding: 0;
+                    font-weight: bold;
+                }
+                
+                .signupbox input {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                
+                .signupbox input[type="email"],
+                input[type="password"],
+                input[type="name"] {
+                    border: none;
+                    border-bottom: 1px solid #fff;
+                    background: transparent;
+                    outline: none;
+                    height: 40px;
+                    color: #ffffff;
+                    ;
+                    font-size: 16px;
+                }
+                
+                .signupbox input[type="submit"] {
+                    border: none;
+                    outline: none;
+                    height: 40px;
+                    background: #a452b1;
+                    color: #fff;
+                    font-size: 18px;
+                    border-radius: 20px;
+                }
+                
+                .signupbox input[type="submit"]:hover {
+                    cursor: pointer;
+                    background: #ffc107;
+                    color: #fff;
+                }
+                
+                .signupbox a {
+                    text-decoration: none;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #be4156;
+                }
+                
+                .signupbox a:hover {
+                    color: #ffc107
+                }
+                
+                .signupbox button {
+                    border: none;
+                    color: #be4156;
+                    background-color: #DABFDE;
+                }
+                
+                .darkBG {
+                    background: #c8c4c9;
+                    font-family: Jazz LET, fantasy;
+                    color:#ffffff;
+                    ;
+                }

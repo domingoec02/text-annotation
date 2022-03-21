@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload PDF</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="annotate.css">
+    </head>
+    <body style="background-color:#EBE8E7;">
+    
+        <div class="row">
+    
+            <div class="darkBG col-sm-6">
+                <a href="firstpage.html" style="color:#000000;  text-align: center; text-decoration:none;">
+                    <center>Text Annotation
+                </a>
+                </center>
+            </div>
+    
+            <div class="darkBG col-sm-4"> </div>
+    
+            <div class="darkBG col-sm-1">
+                <a href="firstpage.html" style="color:#000000;  text-align: center; text-decoration:none;">
+                    <center>Home
+                </a>
+                </center>
+            </div>
+    
+    
+    
+            <div class="darkBG col-sm-1">
+                <a href="index.html" style="color:#000000;  text-align: center; text-decoration:none;">
+                    <center>Logout
+                </a>
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="annotate" style="padding: 90px 10px;">
+    
+            <!-- <form style="border-style: dotted; padding: 50px 10px;"  onsubmit="submit()"> -->
+                
+                    <div class="form-group">
+    
+    
+                    </div>
+    
+                    <br>
+                    <center> <select id="typeOfFile" class="form-select" aria-label="Default select example" style="width: 250px;">
+                            <option selected value="none">Choose a type of file</option>
+                            <option value="pdf">PDF</option>
+                            <option value="text">Text</option>
+                        </select>
+                    </center>
+                    <br>
+                    <center><input type="file" name="name" accept="application/pdf" id="fileName" single><br><br>
+                    </center>
+                    <center>
+                        
+                        
+                    </center>
+                    
+                   
+            <!-- </form> -->
+            <button type="submit" value="submit" onclick="submit()" class="d-block mx-auto"
+                style="background-color: #ffffff; border-radius: 5px; border-color: white;" id="submitButton">submit</button>
+            <br>
+            
+        </div>
+    
+    
+        <script src="annotate.js"></script>
+    </body>
+
+</html>
+

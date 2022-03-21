@@ -1,0 +1,94 @@
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.signupbox a:hover {
+    color: #ffc107;
+}
+
+.darkBG {
+    background: #ADC3B7;
+    font-family: Jazz LET, fantasy;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .column {
+    flex: 33.3%;
+}
+
+.darkBG a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.darkBG a:hover {
+    color: #d3c4be;
+}
+
+.carousel {
+    width: 1100px;
+    height: 550px;
+    position: center;
+}
+
+.bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white {
+    width: 100px;
+    height: 50px;
+}
+
+.dropbtn {
+    background-color: #ADC3B7;
+    color: white;
+    /* padding: 10px; */
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ADC3B7;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ADC3B7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #3e8e41;
+}

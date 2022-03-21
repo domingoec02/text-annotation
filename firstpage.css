@@ -1,0 +1,27 @@
+.darkBG {
+    background-color: d3c4be;
+    height: 100px;
+}
+
+.img-fluid {
+    width: 900px;
+    height: 250px;
+}
+
+.p2 {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.darkestBG {
+    background-color: #EBE8E7;
+    /* font-family: cursive; */
+    color: #936b93;
+    /* text-decoration-line: underline; */
+    text-decoration-style: solid;
+}
+
+.darkesttBG {
+    background-color: #1868ae;
+}

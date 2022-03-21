@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Annotation </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="textannotation.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+
+    <body style="background-color:#EBE8E7;">
+
+        <div class="row">
+
+            <div class="darkBG col-sm-6">
+                <a href="annotate.html" style="color:#936b93;  text-align: center; text-decoration:none;">
+                    <center>Text Annotation</a>
+                </center>
+            </div>
+
+            <div class="darkBG col-sm-4"> </div>
+
+            <div class="darkBG col-sm-1">
+                <a href="firstpage.html" style="color:#936b93;  text-align: center; text-decoration:none;">
+                    <center>Home</a>
+                </center>
+            </div>
+            <div class="darkBG col-sm-1">
+                <a href="index.html.html" style="color:#936b93;  text-align: center; text-decoration:none;">
+                    <center>Logout</a>
+                </center>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4 lib p-3">
+                    <div>
+                        <h3 class="text-center">Category</h3>
+                        <div class="row">
+                            <!-- <div class="col-6">
+                                <h4 class="text-center">Person</h4>
+                                <div id="personCategory"></div>
+                            </div>
+                             <div class="col-6">
+                                <h4 class="text-center">Date</h4>
+                                <div id="dateCategory"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h4 id="locationCategory" class="text-center">Location</h4>
+                            </div>
+                             <div class="col-6">
+                                <h4 id="topicCategory" class="text-center">Topic</h4>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Library
+                                    </button>
+                                </h2>
+                            </div>
+                    
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- <span style="color: black;">And lastly, the placeholder content for the third and final accordion panel. This panel is
+                                        hidden by
+                                        default. </span> -->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Category
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <span style="color: black;">And lastly, the placeholder content for the third and final accordion panel. This panel is
+                                        hidden by
+                                        default. </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-8 txt p-3 ">
+                    <h2 class="anno"><span style="background-color: #aa9cfc;padding-left: 10px;">Text</span><span style="background-color: #9cc9cc;padding-left: 10px;">Ann</span><span style="background-color: #aa9cfc;">o</span><span style="background-color: #e4e7d2; padding-right: 10px;">tation</span></h2>
+                    <div class="tfile">
+                        <h4 class="titleOfFile" id="titleOfFile">x File: <span id="docTitle"></span><span class="addBtn">+</span></h4>
+                        
+                    </div>
+                    <div class="text-area bg-white" id="text-area">
+                        Written for the Common App college application essays "Tell us your story" prompt. This essay could work for prompts 1
+                        and 7 for the Common App.
+                        
+                        They covered the precious mahogany coffin with a brown amalgam of rocks, decomposed organisms, and weeds. It was my turn
+                        to take the shovel, but I felt too ashamed to dutifully send her off when I had not properly said goodbye. I refused to
+                        throw dirt on her. I refused to let go of my grandmother, to accept a death I had not seen coming, to believe that an
+                        illness could not only interrupt, but steal a beloved life.
+                        
+                        When my parents finally revealed to me that my grandmother had been battling liver cancer, I was twelve and I was
+                        angry--mostly with myself. They had wanted to protect me--only six years old at the time--from the complex and morose
+                        concept of death. However, when the end inevitably arrived, I wasn’t trying to comprehend what dying was; I was trying
+                        to understand how I had been able to abandon my sick grandmother in favor of playing with friends and watching TV. Hurt
+                        that my parents had deceived me and resentful of my own oblivion, I committed myself to preventing such blindness from
+                        resurfacing.
+                        
+                        I became desperately devoted to my education because I saw knowledge as the key to freeing myself from the chains of
+                        ignorance. While learning about cancer in school I promised myself that I would memorize every fact and absorb every
+                        detail in textbooks and online medical journals. And as I began to consider my future, I realized that what I learned in
+                        school would allow me to silence that which had silenced my grandmother. However, I was focused not with learning
+                        itself, but with good grades and high test scores. I started to believe that academic perfection would be the only way
+                        to redeem myself in her eyes--to make up for what I had not done as a granddaughter.
+                        
+                        However, a simple walk on a hiking trail behind my house made me open my own eyes to the truth. Over the years,
+                        everything--even honoring my grandmother--had become second to school and grades. As my shoes humbly tapped against the
+                        Earth, the towering trees blackened by the forest fire a few years ago, the faintly colorful pebbles embedded in the
+                        sidewalk, and the wispy white clouds hanging in the sky reminded me of my small though nonetheless significant part in a
+                        larger whole that is humankind and this Earth. Before I could resolve my guilt, I had to broaden my perspective of the
+                        world as well as my responsibilities to my fellow humans.
+                        
+                        Volunteering at a cancer treatment center has helped me discover my path. When I see patients trapped in not only the
+                        hospital but also a moment in time by their diseases, I talk to them. For six hours a day, three times a week, Ivana is
+                        surrounded by IV stands, empty walls, and busy nurses that quietly yet constantly remind her of her breast cancer. Her
+                        face is pale and tired, yet kind--not unlike my grandmother’s. I need only to smile and say hello to see her brighten up
+                        as life returns to her face. Upon our first meeting, she opened up about her two sons, her hometown, and her knitting
+                        group--no mention of her disease. Without even standing up, the three of us—Ivana, me, and my grandmother--had taken a
+                        walk together.
+                        
+                        Cancer, as powerful and invincible as it may seem, is a mere fraction of a person’s life. It’s easy to forget when one’s
+                        mind and body are so weak and vulnerable. I want to be there as an oncologist to remind them to take a walk once in a
+                        while, to remember that there’s so much more to life than a disease. While I physically treat their cancer, I want to
+                        lend patients emotional support and mental strength to escape the interruption and continue living. Through my work, I
+                        can accept the shovel without burying my grandmother’s memory.
+                        
+                    </div>
+                    
+                    <div class="d-flex mt-3 justify-content-end" id="buttons1">
+                        <div>
+                           <button id="buttons1" class="sum btn btn-primary" onclick="summarize()">Summarize</button> 
+                        </div>
+                        <!-- <div>
+                            <button id="buttons1" class="mr-auto btn btn-primary">Undo</button>    
+                        </div> -->
+                        <div>
+                           <button id="buttons1" type="button" class="mr-auto btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Save</button>     
+                        </div>
+                    </div>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <!-- <span aria-hidden="true">&times;</span> -->
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">File Name</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                            placeholder="Enter the File Name">
+                                                        
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" onclick="saveButton()" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="inputTextArea" style="display: none">
+                                    <h3 class="d-inline-block border p-2 bg-light rounded border-white px-5">Text annotate</h3>
+                                    <textarea class="form-control" id="inputText" rows="20"></textarea>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-primary mt-3 m-3" onclick="annotate()">Annotate</button>
+                                    </div>
+                                
+
+                    </div>
+                    
+            
+                    
+                    
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="textannotation.js"></script>
+</body>
+
+</html>

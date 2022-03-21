@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assest/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/style.css">
+    <title>Linya</title>
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo"> 
+                <h1 class="text-light"><a href="firstpage.html"><span>Linya</span></a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="firstpage.html">Home</a></li>
+                    <li><a href="annotate.html">Annotate</a></li>
+                    <li><a href="todo.html">To-Do</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <center><a href="index.html" style=" text-align: center; text-decoration:none;" onclick="logout()">Logout</a></center>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero-no-slider" class="d-flex justify-cntent-center align-items-center">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                  <h2>Welcome <span id="username"></span></h2>
+                  <p>You can now start annotating journey.</p>
+            </div>
+        </div>       
+    </section>
+    <script src="firstpage.js "></script>
+</body>
+</html>
